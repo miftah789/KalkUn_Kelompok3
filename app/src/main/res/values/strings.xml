@@ -2,7 +2,31 @@
     <string name="app_name">KalkUn</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="slide_1_title">Selamat Datang di KalkUn</string>
+    <string name="slide_1_desc">KalkUn adalah Kakulator Bangun yang memudahkan Anda untuk menghitung Volume dan Luas Permukaan suatu Bangun Ruang</string>
+
+    <string name="slide_2_title">Balok</string>
+    <string name="slide_2_desc">Bangun ini memiliki 12 rusuk, 6 titik sudut dan memiliki 6 sisi persegi panjang</string>
+
+    <string name="slide_3_title">Kubus</string>
+    <string name="slide_3_desc">Bangun ini memiliki 12 rusuk, 6 titik sudut dan memiliki 6 sisi persegi</string>
+
+    <string name="slide_4_title">Kerucut</string>
+    <string name="slide_4_desc">Bangun ini memiliki 1 titik sudut</string>
+
+    <string name="slide_5_title">Bola</string>
+    <string name="slide_5_desc">Bangun yang luas permukaannya sama dengan 4  kali luas lingkaran</string>
+
+    <string name="slide_6_title">Tabung</string>
+    <string name="slide_6_desc">Bangun yang merupakan gabungan dari persegi panjang dan 2 lingkaran</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>
