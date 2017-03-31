@@ -2,10 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/c"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl601131835.kalkulator.Fragment1">
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="492dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="64dp"
@@ -14,7 +15,6 @@
         android:layout_toEndOf="@+id/Btn6_id"
         android:layout_toRightOf="@+id/Btn6_id"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
@@ -25,9 +25,11 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/sisi"
-            android:hint="Lebar"
+            android:background="?attr/colorControlHighlight"
+            android:hint="Isikan Lebar"
             android:inputType="numberSigned"
-            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@android:color/white" />
 
         <EditText
             android:id="@+id/tinggi"
@@ -36,9 +38,12 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/lebar"
-            android:hint="Tinggi"
+            android:background="?attr/colorControlHighlight"
+            android:elevation="1dp"
+            android:hint="Isikan Tinggi"
             android:inputType="numberSigned"
-            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@android:color/white" />
 
         <EditText
             android:id="@+id/sisi"
@@ -46,35 +51,38 @@
             android:layout_height="50dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/rumusvol"
-            android:layout_marginTop="49dp"
-            android:hint="Panjang"
+            android:layout_below="@+id/rumuslp"
+            android:background="?attr/colorControlHighlight"
+            android:hint="Isikan Panjang"
             android:inputType="numberSigned"
-            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/volume"
             android:layout_width="140dp"
-            android:layout_height="70dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+            android:layout_height="50dp"
             android:layout_below="@+id/hasil"
-            android:layout_marginTop="17dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="0dp"
             android:onClick="btnvol"
-            android:text="VOLUME" />
+            android:text="VOLUME"
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/lp"
             android:layout_width="160dp"
-            android:layout_height="70dp"
-            android:layout_alignBottom="@+id/volume"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/volume"
-            android:layout_marginEnd="19dp"
-            android:layout_marginRight="19dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/volume"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/white"
+            android:elevation="0dp"
             android:onClick="btnlp"
-            android:text="LUAS PERMUKAAN" />
+            android:text="LUAS PERMUKAAN"
+            android:textColor="@color/colorPrimaryDark" />
 
         <TextView
             android:id="@+id/hasil"
@@ -83,18 +91,23 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/tinggi"
+            android:background="?attr/colorControlHighlight"
             android:text=""
-            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/rumusvol"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
+            android:background="?attr/colorControlHighlight"
             android:text="VOL = P x L x T"
-            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@android:color/white" />
 
         <TextView
             android:id="@+id/rumuslp"
@@ -103,8 +116,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/rumusvol"
+            android:background="?attr/colorControlHighlight"
             android:text="LP = 2 x (PL x LT x TP)"
-            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@android:color/white" />
 
 
     </RelativeLayout>
