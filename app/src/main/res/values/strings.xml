@@ -21,12 +21,5 @@
     <string name="slide_4_title">Kerucut</string>
     <string name="slide_4_desc">Bangun ini memiliki 1 titik sudut</string>
 
-    <string name="slide_5_title">Bola</string>
-    <string name="slide_5_desc">Bangun yang luas permukaannya sama dengan 4  kali luas lingkaran</string>
 
-    <string name="slide_6_title">Tabung</string>
-    <string name="slide_6_desc">Bangun yang merupakan gabungan dari persegi panjang dan 2 lingkaran</string>
-
-    <string name="play_again_desc">To see the welcome slider again, goto apps -> welcome slider -> clear data</string>
-    <string name="play_again">Play Again</string>
 </resources>
